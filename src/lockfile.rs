@@ -5,7 +5,7 @@ use std::{
 };
 
 pub const SCHEMA: &str =
-    "https://raw.githubusercontent.com/theoremlp/rules_multitool/main/lockfile.schema.json";
+    "https://raw.githubusercontent.com/bazel-contrib/rules_multitool/main/lockfile.schema.json";
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 #[serde(rename_all = "lowercase")]
